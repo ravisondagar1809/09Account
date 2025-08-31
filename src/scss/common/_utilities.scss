@@ -1,0 +1,277 @@
+.bg-181818 {
+    background-color: $color-181818;
+  }
+.bg-F5F5F5 {
+  background-color: $color-F5F5F5;
+}
+.bg-198754 {
+  background-color: $color-198754;
+}
+  
+  .bg-4E0362 {
+    background-color: $color-4E0362;
+  }
+  
+  .bg-FFFBF4 {
+    background-color: $color-FFFBF4;
+  }
+  
+  .bg-FFF2FC {
+    background-color: $color-FFF2FC;
+  }
+  
+  .bg-C892C6 {
+    background-color: $color-C892C6;
+  }
+  
+  .bg-CFFBF3 {
+    background-color: $color-CFFBF3;
+  }
+  
+  .bg-FDE1D6 {
+    background-color: $color-FDE1D6;
+  }
+  
+  .bg-FFF7CD {
+    background-color: $color-FFF7CD;
+  }
+  
+  .bg-EBFFEE {
+    background-color: $color-EBFFEE;
+  }
+  
+  .bg-FBBCAF {
+    background-color: $color-FBBCAF;
+  }
+  
+  .bg-E5CBE2 {
+    background-color: $color-E5CBE2;
+  }
+  
+  .bg-7E4781 {
+    background-color: $color-7E4781;
+  }
+
+  .text-EA6465 {
+    color: $color-EA6465;
+  }
+  .text-FFC107 {
+    color: $color-FFC107;
+  }
+  .text-198754 {
+    color: $color-198754;
+  }
+  .text-DC3545 {
+    color: $color-DC3545;
+  }
+  .text-17A2B8 {
+    color: $color-17A2B8;
+  }
+
+  .text-181818 {
+    color: $color-181818;
+  }
+  
+  .text-4E0362 {
+    color: $color-4E0362;
+  }
+  
+  .text-FFFBF4 {
+    color: $color-FFFBF4;
+  }
+  
+  .text-FFF2FC {
+    color: $color-FFF2FC;
+  }
+  
+  .text-C892C6 {
+    color: $color-C892C6;
+  }
+  
+  .text-CFFBF3 {
+    color: $color-CFFBF3;
+  }
+  
+  .text-FDE1D6 {
+    color: $color-FDE1D6;
+  }
+  
+  .text-FFF7CD {
+    color: $color-FFF7CD;
+  }
+  
+  .text-EBFFEE {
+    color: $color-EBFFEE;
+  }
+  
+  .text-FBBCAF {
+    color: $color-FBBCAF;
+  }
+  
+  .text-E5CBE2 {
+    color: $color-E5CBE2;
+  }
+  
+  .text-7E4781 {
+    color: $color-7E4781;
+  }
+  
+  .font16 {
+    font-size: $font16;
+  }
+  
+  .font20 {
+    font-size: $font20;
+  }
+  
+  .font24 {
+    font-size: $font24;
+  }
+  
+  .font28 {
+    font-size: $font28;
+  }
+  
+  .font32 {
+    font-size: $font32;
+  }
+  
+  .font40 {
+    font-size: $font40;
+  }
+  
+  .font48 {
+    font-size: $font48;
+  }
+  .leading24 {
+    line-height: $leading24;
+  }
+  
+  .leading27 {
+    line-height: $leading27;
+  }
+  
+  .leading30 {
+    line-height: $leading30;
+  }
+  
+  .leading36 {
+    line-height: $leading36;
+  }
+
+  .leading48 {
+    line-height: $leading48;
+  }
+  
+  .leading67 {
+    line-height: $leading67;
+  }
+  
+  .radius4 {
+    border-radius: $radius4;
+  }
+  .radius8 {
+    border-radius: $radius8;
+  }
+  
+  .radius12 {
+    border-radius: $radius12;
+  }
+  
+  .radius16 {
+    border-radius: $radius16;
+  }
+  
+  .radius24 {
+    border-radius: $radius24;
+  }
+  
+  .radius40 {
+    border-radius: $radius40;
+  }
+  
+  .radius50 {
+    border-radius: $radius50;
+  }
+
+  @include media-breakpoint-down(lg){
+    .res-font16 {
+      font-size: $font16;
+    }
+    
+    .res-font20 {
+      font-size: $font20;
+    }
+    .res-font14 {
+      font-size: $res-font14;
+    }
+    
+    .res-font22 {
+      font-size: $res-font22;
+    }
+    
+    .res-font24 {
+      font-size: $font24;
+    }
+    
+    .res-font28 {
+      font-size: $font28;
+    }
+    
+    .res-font32 {
+      font-size: $font32;
+    }
+    
+    .res-font40 {
+      font-size: $font40;
+    }
+    
+    .res-font48 {
+      font-size: $font48;
+    }
+    .res-leading24 {
+      line-height: $leading24;
+    }
+    
+    .res-leading27 {
+      line-height: $leading27;
+    }
+    
+    .res-leading30 {
+      line-height: $leading30;
+    }
+    
+    .res-leading36 {
+      line-height: $leading36;
+    }
+    
+    .res-leading67 {
+      line-height: $leading67;
+    }
+    .res-radius4 {
+      border-radius: $radius4;
+    }
+    .res-radius8 {
+      border-radius: $radius8;
+    }
+    
+    .res-radius12 {
+      border-radius: $radius12;
+    }
+    
+    .res-radius16 {
+      border-radius: $radius16;
+    }
+    
+    .res-radius24 {
+      border-radius: $radius24;
+    }
+    
+    .res-radius40 {
+      border-radius: $radius40;
+    }
+    
+    .res-radius50 {
+      border-radius: $radius50;
+    }
+  }

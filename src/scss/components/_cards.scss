@@ -1,0 +1,183 @@
+.card-hover {
+    .img {
+        transform: scale(1);
+        transition: 0.3s all ease-in-out;
+    }
+
+    &:hover {
+        .img {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.three-cards{
+    .three-card-bg-container{
+        height: 72px;
+        width: 72px;
+        .img{
+            height: 48px;
+        }
+        @include media-breakpoint-down(lg){
+            height: 55px;
+            width: 55px;
+            .img{
+                height: 30px;
+            }
+        }
+    }
+}
+
+ul{
+    margin-bottom: 0px !important;
+    li{
+        &:last-child{
+            margin-bottom: 0px !important;
+        }
+    }
+}
+.speed-card{
+    border: 1px solid $color-C892C6;
+    .speed-card-icon-container{
+        height: 72px;
+        width: 72px;
+        .img{
+            height: 48px;
+        }
+        @include media-breakpoint-down(lg){
+            height: 55px;
+            width: 55px;
+            .img{
+                height: 30px;
+            }
+        }
+    }
+    .right-card-img{
+        height: 332px;
+    }
+    .right-card-bg-container{
+        background-color: rgba($color: $color-FDE1D6, $alpha: 0.8);
+    }
+    @include media-breakpoint-down(lg){
+        padding: 15px;
+        .right-card-img{
+            height: 250px;
+        }
+    }
+}
+
+.tab-card{
+    .tab-card-img{
+        height: 266px;
+        @include media-breakpoint-down(lg){
+            height: 210px;
+        }
+    }
+}
+
+.Powerful-cards{
+    .Powerful-card-icon{
+        height: 72px;
+        width: 72px;
+        @include media-breakpoint-down(lg){
+            height: 45px;
+            width: 45px;
+        }
+    }
+}
+
+.accounting-card{
+    &:nth-child(4n + 1){
+        width: 59.66%;
+    }
+    &:nth-child(4n + 2){
+        width: 40.34%;
+    }
+    &:nth-child(4n + 3){
+        width: 40.4%;
+    }
+    &:nth-child(4n + 4){
+        width: 59.6%;
+    }
+    @include media-breakpoint-down(lg){
+        width: 1000% !important;
+    }
+}
+
+.two-chart-card{
+    .two-card-img{
+        @include media-breakpoint-up(xxl){
+            width: 500px;
+        }
+        height: 220px;
+    }
+}
+
+.reporting-card{
+    &:nth-child(5n + 1),
+    &:nth-child(5n + 2){
+        width: 50%;
+    }
+    &:nth-child(5n + 3),
+    &:nth-child(5n + 4),
+    &:nth-child(5n + 5){
+        width: 33.333333%;
+    }
+    @include media-breakpoint-down(lg){
+        width: 1000% !important;
+    }
+}
+
+.customer-card{
+    .customer-card-icon{
+        height: 72px;
+        width: 72px;
+        @include media-breakpoint-down(lg){
+            height: 55px;
+            width: 55px;
+        }
+    }
+}
+.customer-cards-img{
+    @include media-breakpoint-up(xxl){
+        height: 502px;
+        width: 466px;
+    }
+    background-color: rgba($color: $color-CFFBF3, $alpha: 0.3);
+    @include media-breakpoint-down(lg){
+        height: 300px;
+        width: 100%;
+    }
+}
+
+.left-right-card{
+    .left-right-card-img{
+        height: 295px;
+        background-color: rgba($color: $color-CFFBF3, $alpha: 0.3);
+        @include media-breakpoint-down(lg){
+            height: 200px;
+        }
+    }
+}
+
+.white-icon-bg-container{
+    height: 80px;
+    width: 80px;
+    @include media-breakpoint-down(lg){
+        height: 55px;
+        width: 55px;
+    }
+}
+
+.counter-cards,
+.free-trial-cards,
+.footer-card{
+    border: 1px solid $color-C892C6;
+}
+
+.border-C4C4C4-bottom{
+    border-bottom: 1px solid $color-C4C4C4;
+}
+.border-DCDCDC-bottom{
+    border-bottom: 1px solid $color-DCDCDC;
+}

@@ -1,0 +1,146 @@
+/*******************************************************************************
+******************************* COLOUR VARIABLES *******************************
+*******************************************************************************/
+$color-181818: #181818;
+$color-4E0362: #4E0362;
+$color-FFFBF4: #FFFBF4;
+$color-FFF2FC: #FFF2FC;
+$color-C892C6: #C892C6;
+$color-CFFBF3: #CFFBF3;
+$color-FDE1D6: #FDE1D6;
+$color-FFF7CD: #FFF7CD;
+$color-EBFFEE: #EBFFEE;
+$color-FBBCAF: #FBBCAF;
+$color-E5CBE2: #E5CBE2;
+$color-7E4781: #7E4781;
+$color-EA6465: #EA6465;
+$color-F5F5F5: #F5F5F5;
+$color-198754: #198754;
+$color-DC3545: #DC3545;
+$color-17A2B8: #17A2B8;
+$color-FFC107: #FFC107;
+$color-C4C4C4: #C4C4C4;
+$color-DCDCDC: #DCDCDC;
+
+
+/*******************************************************************************
+******************************* FONTS VARIABLES *******************************
+*******************************************************************************/
+
+$font16: 16px;
+$font20: 20px;
+$font24: 24px;
+$font28: 28px;
+$font32: 32px;
+$font40: 40px;
+$font48: 48px;
+$res-font14 : 14px;
+$res-font22 : 22px;
+/*******************************************************************************
+******************************* LINE HEIGHT *******************************
+******************************************************************************/
+
+$leading24 : 24px;
+$leading27 : 27px;
+$leading30 : 30px;
+$leading36 : 36px;
+$leading48 : 48px;
+$leading67 : 67px;
+
+/*******************************************************************************
+******************************* LETTER SPACING *******************************
+*******************************************************************************/
+$spaceX: 1.2px;
+
+/*******************************************************************************
+******************************* RADIUS ****************************
+*******************************************************************************/
+$radius4: 4px;
+$radius8: 8px;
+$radius12: 12px;
+$radius16: 16px;
+$radius24: 24px;
+$radius40 : 40px;
+$radius50 : 50px;
+
+/*******************************************************************************
+******************************* ANIMATION VARIABLES ****************************
+*******************************************************************************/
+@mixin generate-transition($name, $duration, $type) {
+  -webkit-transition: $name $duration $type;
+  /* Safari 4+ */
+  -moz-transition: $name $duration $type;
+  /* Fx 5+ */
+  -o-transition: $name $duration $type;
+  /* Opera 12+ */
+  transition: $name $duration $type;
+  /* IE 10+, Fx 29+ */
+}
+
+@mixin generate-animation-delay($seconds) {
+  -webkit-animation-delay: $seconds;
+  /* Safari 4+ */
+  -moz-animation-delay: $seconds;
+  /* Fx 5+ */
+  -o-animation-delay: $seconds;
+  /* Opera 12+ */
+  animation-delay: $seconds;
+  /* IE 10+, Fx 29+ */
+}
+
+@mixin generate-placeholder($color, $fontsize) {
+  &::-webkit-input-placeholder {
+    color: $color;
+    font-size: $fontsize;
+  }
+
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: $color;
+    font-size: $fontsize;
+  }
+
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $color;
+    font-size: $fontsize;
+  }
+
+  &:-ms-input-placeholder {
+    color: $color;
+    font-size: $fontsize;
+  }
+}
+
+@mixin generate-scale-transition() {
+  -webkit-transform: scale(1.1);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.1);
+  /* Firefox */
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -o-transform: scale(1.1);
+  /* Opera */
+  transform: scale(1.1);
+}
+
+@mixin generate-transform($transform) {
+  -webkit-transform: $transform;
+  /* Safari and Chrome */
+  -moz-transform: $transform;
+  /* Firefox */
+  -ms-transform: $transform;
+  /* IE 9 */
+  -o-transform: $transform;
+  /* Opera */
+  transform: $transform;
+}
+
+@mixin generate-filter($filter) {
+  -webkit-filter: $filter;
+  filter: $filter;
+  -moz-filter: $filter;
+  -o-filter: $filter;
+}
+
+$enable-negative-margins: true;
