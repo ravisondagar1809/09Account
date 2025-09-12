@@ -1,0 +1,14 @@
+.become-partner-form-section{
+    .become-partner-form-container{
+        padding: 60px 142px;
+        .become-logo{
+            height: 67px;
+        }
+        @include media-breakpoint-down(lg){
+            padding: 25px;
+            .become-logo{
+                height: 35px;
+            }
+        }
+    }
+}

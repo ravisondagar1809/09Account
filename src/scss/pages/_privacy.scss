@@ -1,0 +1,29 @@
+.privacy-hero-section{
+    .privacy-hero-img{
+        height: 555px;
+        @include media-breakpoint-down(lg){
+            height: 250px;
+        }
+    }
+}
+
+.privacy-content-section{
+    .privacy-content-container{
+        .single-content{
+            &:last-child{
+                margin-bottom: 0px !important;
+            }
+        }
+    }
+}
+
+.ask-question-section{
+    .single-content-container{
+        column-count: 2; 
+        column-gap: 24px;     
+        @include media-breakpoint-down(lg){
+            column-count: 1; 
+            column-gap: 24px;
+        }
+    }
+}

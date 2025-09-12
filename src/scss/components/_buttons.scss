@@ -10,6 +10,9 @@ button,
 .btnA{
     height: 44px;
     padding: 0px 75px;
+    .right-white-arrow{
+        height: 12px;
+    }
     &.bg-4E0362-btn{
         background-color: $color-4E0362;
         color: $white;
@@ -37,5 +40,11 @@ button,
             border: 1px solid $color-4E0362;
             color: $white;
         }
+    }
+}
+
+.btnB{
+    img{
+        height: 12px;
     }
 }

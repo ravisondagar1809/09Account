@@ -1,0 +1,14 @@
+.footer{
+    .social-icon{
+        height: 40px;
+        margin-right: 24px;
+        &:last-child{
+            margin-right: 0px !important;
+        }
+    }
+    .footer-icon{
+        height: 24px;
+        width: 24px;
+        margin-right: 8px;
+    }
+}

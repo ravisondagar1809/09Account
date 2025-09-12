@@ -107,11 +107,13 @@ textarea {
   transform: translateX(-50%);
 }
 
-@include media-breakpoint-down(lg) {
+@include media-breakpoint-down(xl) {
   .p-initial {
     position: initial !important;
     transform: initial !important;
   }
+}
+@include media-breakpoint-down(lg) {
 
   .p-relative {
     position: relative !important;
